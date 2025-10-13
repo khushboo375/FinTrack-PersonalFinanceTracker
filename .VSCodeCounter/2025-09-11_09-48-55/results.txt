@@ -1,0 +1,64 @@
+Date : 2025-09-11 09:48:55
+Directory : d:\ReactProjects\financetracker\src
+Total : 27 files,  1496 codes, 118 comments, 187 blanks, all 1801 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         18 |      1,089 |         39 |        127 |      1,255 |
+| PostCSS    |          9 |        407 |         79 |         60 |        546 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                           |         27 |      1,496 |        118 |        187 |      1,801 |
+| . (Files)                                                                   |          7 |        103 |         10 |         15 |        128 |
+| components                                                                  |         18 |      1,184 |        106 |        145 |      1,435 |
+| components (Files)                                                          |          1 |         22 |          1 |          3 |         26 |
+| components\Button                                                           |          2 |         41 |          0 |          4 |         45 |
+| components\Cards                                                            |          2 |         45 |          0 |          7 |         52 |
+| components\Charts                                                           |          2 |        103 |          6 |         13 |        122 |
+| components\Header                                                           |          2 |         91 |         53 |         12 |        156 |
+| components\Input                                                            |          2 |         38 |          0 |          2 |         40 |
+| components\Modals                                                           |          3 |        189 |          0 |         21 |        210 |
+| components\SignupSignin                                                     |          2 |        368 |         29 |         36 |        433 |
+| components\TransactionsTable                                                |          2 |        287 |         17 |         47 |        351 |
+| pages                                                                       |          2 |        209 |          2 |         27 |        238 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                    | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\ReactProjects\financetracker\src\App.css                                 | PostCSS    |          6 |          0 |          1 |          7 |
+| d:\ReactProjects\financetracker\src\App.js                                  | JavaScript |         22 |          0 |          3 |         25 |
+| d:\ReactProjects\financetracker\src\components\Button\index.js              | JavaScript |         13 |          0 |          4 |         17 |
+| d:\ReactProjects\financetracker\src\components\Button\styles.css            | PostCSS    |         28 |          0 |          0 |         28 |
+| d:\ReactProjects\financetracker\src\components\Cards\index.js               | JavaScript |         24 |          0 |          2 |         26 |
+| d:\ReactProjects\financetracker\src\components\Cards\styles.css             | PostCSS    |         21 |          0 |          5 |         26 |
+| d:\ReactProjects\financetracker\src\components\Charts\index.js              | JavaScript |         72 |          5 |          8 |         85 |
+| d:\ReactProjects\financetracker\src\components\Charts\styles.css            | PostCSS    |         31 |          1 |          5 |         37 |
+| d:\ReactProjects\financetracker\src\components\Header\index.js              | JavaScript |         52 |          2 |          7 |         61 |
+| d:\ReactProjects\financetracker\src\components\Header\styles.css            | PostCSS    |         39 |         51 |          5 |         95 |
+| d:\ReactProjects\financetracker\src\components\Input\index.js               | JavaScript |         17 |          0 |          2 |         19 |
+| d:\ReactProjects\financetracker\src\components\Input\styles.css             | PostCSS    |         21 |          0 |          0 |         21 |
+| d:\ReactProjects\financetracker\src\components\Modals\CurrentBalance.js     | JavaScript |         40 |          0 |          5 |         45 |
+| d:\ReactProjects\financetracker\src\components\Modals\addExpense.js         | JavaScript |         84 |          0 |          8 |         92 |
+| d:\ReactProjects\financetracker\src\components\Modals\addIncome.js          | JavaScript |         65 |          0 |          8 |         73 |
+| d:\ReactProjects\financetracker\src\components\NoTransactions.js            | JavaScript |         22 |          1 |          3 |         26 |
+| d:\ReactProjects\financetracker\src\components\SignupSignin\index.js        | JavaScript |        224 |         11 |         11 |        246 |
+| d:\ReactProjects\financetracker\src\components\SignupSignin\styles.css      | PostCSS    |        144 |         18 |         25 |        187 |
+| d:\ReactProjects\financetracker\src\components\TransactionsTable\index.js   | JavaScript |        203 |          8 |         29 |        240 |
+| d:\ReactProjects\financetracker\src\components\TransactionsTable\styles.css | PostCSS    |         84 |          9 |         18 |        111 |
+| d:\ReactProjects\financetracker\src\firebase.js                             | JavaScript |         19 |          6 |          2 |         27 |
+| d:\ReactProjects\financetracker\src\index.css                               | PostCSS    |         33 |          0 |          1 |         34 |
+| d:\ReactProjects\financetracker\src\index.js                                | JavaScript |         10 |          0 |          5 |         15 |
+| d:\ReactProjects\financetracker\src\pages\Dashboard.js                      | JavaScript |        194 |          1 |         25 |        220 |
+| d:\ReactProjects\financetracker\src\pages\signup.js                         | JavaScript |         15 |          1 |          2 |         18 |
+| d:\ReactProjects\financetracker\src\reportWebVitals.js                      | JavaScript |         12 |          0 |          2 |         14 |
+| d:\ReactProjects\financetracker\src\setupTests.js                           | JavaScript |          1 |          4 |          1 |          6 |
+| Total                                                                       |            |      1,496 |        118 |        187 |      1,801 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,33 @@
+.label-input {
+  text-transform: capitalize;
+  margin: 0.5rem;
+  font-size: 1rem;
+  color: black;
+}
+
+/* Base input field */
+.custom-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  opacity: 0.95;
+  transition: all 0.2s ease;
+}
+
+/* On focus */
+.custom-input:focus {
+  outline: none;
+  border-bottom: 1px solid #007bff;
+  background-color: #f8f8f8; /* subtle change on focus */
+  opacity: 1;
+}
+
+
+/* Optional — make search boxes look neat */
+.custom-input[type="text"] {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.75rem;
+}

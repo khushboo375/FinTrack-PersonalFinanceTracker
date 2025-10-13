@@ -1,0 +1,54 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+}
+/* === Global Input Fix === */
+input,
+input[type="text"],
+input[type="search"],
+textarea {
+  background-color: white !important; /* makes all inputs white */
+  color: rgb(196, 195, 195) !important;             /* input text in black */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #888 !important; /* grey placeholder */
+  background: transparent !important;
+}
+/* === Fix for black text in Input & DatePicker inside Ant Design Form === */
+
+/* Make Ant Design inputs white background with black text */
+.ant-input,
+.ant-input-number-input,
+.ant-picker-input > input,
+.ant-select-selector {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc !important;
+  border-radius: 6px !important;
+}
+
+/* Placeholder text color */
+.ant-input::placeholder,
+.ant-picker-input > input::placeholder,
+.ant-select-selection-placeholder {
+  color: #777 !important;
+}
+
+/* Ensure DatePicker text is visible */
+.ant-picker-input > input {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Select dropdown text fix */
+.ant-select-item-option-content {
+  color: black !important;
+  background: white !important;
+}

@@ -1,0 +1,37 @@
+.charts-wrapper {
+  display: flex;
+  flex-direction: column;   /* stack line chart on top, pies below */
+  gap: 30px;
+  margin: 20px auto;
+  max-width: 90%;
+  padding: 0 20px;
+}
+
+.chart-box {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(148, 146, 146, 0.8);
+  border-radius: 0.3rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chart-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(117, 116, 116, 0.15);
+}
+
+.chart-box h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: black;
+}
+
+/* row for pie charts */
+.charts-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}

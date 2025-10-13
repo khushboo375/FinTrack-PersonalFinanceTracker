@@ -1,0 +1,6 @@
+.dashboard-container {
+  background-color: #2b2929;  /* pure black */
+  min-height: 100vh;       /* covers full viewport */
+  color: #fff;             /* default text color white */
+  padding-bottom: 2rem;    /* some space at bottom */
+}

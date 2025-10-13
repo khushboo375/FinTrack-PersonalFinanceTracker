@@ -1,0 +1,58 @@
+.my-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 90%;
+  margin: 2rem auto;
+  gap: 1.5rem;
+}
+
+.my-card {
+  flex: 1;
+  border-radius: 0.3rem;
+  background-color: #f7f5f5; /* dark card */
+  color: #000000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  border-top: 3px solid transparent;
+  min-width: 280px;
+}
+
+.ant-card-head {
+  border-bottom: none !important;
+  background: transparent !important;
+}
+
+.ant-card-head-title {
+  margin: 0rem !important;
+  font-weight: 600;
+  color: #000000;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.amount {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 0.5rem 0 1rem 0;
+}
+
+/* Specific card border colors */
+.balance-card {
+  border-top-color: #3b82f6; /* blue */
+}
+
+.income-card {
+  border-top-color: #22c55e; /* green */
+}
+
+.expense-card {
+  border-top-color: #ef4444; /* red */
+}
+
+/* Button adjustments inside cards */
+.my-card button {
+  margin-top: 10px;
+  border: 2px solid #050505;
+}

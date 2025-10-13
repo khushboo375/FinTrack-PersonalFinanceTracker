@@ -1,0 +1,202 @@
+:root {
+  --primary: #4f46e5;
+  --background: #0f0f0f;
+  --text-light: #fff;
+  --text-muted: #aaa;
+  --card-bg: #1c1c1c;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff; /* keep background solid */
+}
+
+/* Smooth scrolling for whole page */
+html {
+  scroll-behavior: smooth;
+}
+/* Base */
+.main-page {
+  background: var(--background);
+  color: var(--text-light);
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 8%;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-image img {
+  max-width: 610px;
+  border-radius: 12px;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #3a3569;
+}
+
+.btn-secondary {
+  background: #222;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #333;
+}
+
+/* Why Choose */
+.why-choose {
+  text-align: center;
+  padding: 4rem 8%;
+}
+
+.why-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.why-grid .card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  text-align: left;
+}
+
+/* Features */
+.features {
+  text-align: center;
+  padding: 4rem 8%;
+}
+
+.feature-grid {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.feature-card img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding: 4rem 8%;
+}
+
+.testimonial-grid {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left;
+  font-style: italic;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 4rem 8%;
+  background: linear-gradient(90deg, #1a1a40, #1f1f5c);
+  border-radius: 12px;
+  margin: 2rem 8%;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  padding: 3rem 8%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.footer-content h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin-bottom: 0.5rem;
+  color: var(--text-muted);
+}
+
+.footer-bottom {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
