@@ -35,7 +35,7 @@ import Signup from "./pages/signup";
 import MainPage from "./pages/MainPage";
 import Dashboard from './pages/Dashboard';
 import Reports from './pages/Reports';
-// import Transactions from "./pages/Transactions";
+import Transactions from "./pages/Transactions";
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
@@ -67,16 +67,10 @@ function App() {
             path="/reports"
             element={user ? <Reports /> : <Navigate to="/signup" />}
           />
-          {/* <Route
+          <Route
             path="/transactions"
-            element={
-              user ? (
-                <Transactions transactions={transactions} fetchTransactions={fetchTransactions} />
-              ) : (
-                <Navigate to="/signup" />
-              )
-            }
-          /> */}
+            element={user ? <Transactions /> : <Navigate to="/signup" />}
+          />
         </Routes>
       </Router>
     </>
